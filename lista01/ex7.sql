@@ -1,0 +1,2 @@
+ALTER TABLE Cliente
+ADD COLUMN telefone VARCHAR(20);
