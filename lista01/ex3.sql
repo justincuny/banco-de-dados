@@ -1,0 +1,6 @@
+CREATE TABLE Cliente (
+    id_cliente SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    data_cadastro DATE DEFAULT CURRENT_DATE
+);
